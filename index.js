@@ -8,7 +8,6 @@ const db = new TortoiseDB({
 });
 
 db.start();
-console.log(db.server.address().port);
 
 // Every 10 mins
-// setInterval(db.dropDB.bind(db), 600000);
+setInterval(db.dropDB.bind(db), 600000);
