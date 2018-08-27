@@ -1,5 +1,4 @@
 const TortoiseDB = require('tortoisedb');
-console.log(TortoiseDB);
 
 const db = new TortoiseDB({
   name: 'todo-app',
@@ -8,9 +7,7 @@ const db = new TortoiseDB({
   batchLimit: 1000
 });
 
-console.log(db);
-
 db.start();
 
 // Every 10 mins
-setInterval(db.dropDB.bind(db), 600000);
+// setInterval(db.dropDB.bind(db), 600000);
