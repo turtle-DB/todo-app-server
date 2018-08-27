@@ -1,4 +1,5 @@
 const TortoiseDB = require('tortoisedb');
+console.log(TortoiseDB);
 
 const db = new TortoiseDB({
   name: 'todo-app',
@@ -6,6 +7,8 @@ const db = new TortoiseDB({
   mongoURI: 'mongodb://localhost:27017',
   batchLimit: 1000
 });
+
+console.log(db);
 
 db.start();
 

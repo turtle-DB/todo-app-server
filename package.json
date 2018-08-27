@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/turtle-DB/todo-app-server#readme",
   "dependencies": {
-    "tortoisedb": "^1.0.4"
+    "tortoisedb": "^1.0.7"
   }
 }
