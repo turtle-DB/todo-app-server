@@ -2,7 +2,7 @@ const TortoiseDB = require('tortoisedb');
 
 const db = new TortoiseDB({
   name: 'todo-app',
-  port: 3001,
+  port: 4000,
   mongoURI: 'mongodb://localhost:27017',
   batchLimit: 1000
 });
