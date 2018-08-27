@@ -1,0 +1,23 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtle-DB/todo-app-server.git"
+  },
+  "keywords": [],
+  "author": "Max Appleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turtle-DB/todo-app-server/issues"
+  },
+  "homepage": "https://github.com/turtle-DB/todo-app-server#readme",
+  "dependencies": {
+    "tortoisedb": "^1.0.4"
+  }
+}
