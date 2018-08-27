@@ -10,4 +10,7 @@ const db = new TortoiseDB({
 db.start();
 
 // Every 10 mins
-setInterval(db.dropDB.bind(db), 600000);
+// setInterval(db.dropDB.bind(db), 600000);
+
+// Every 30 seconds
+setInterval(db.dropDB.bind(db), 30000);
